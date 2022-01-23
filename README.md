@@ -4,13 +4,10 @@ Star Wars App
 ## Table of Content:
 
 - [About The App](#about-the-app)
-- [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Approach](#approach)
 - [Status](#status)
 - [Credits](#credits)
-- [License](#license)
 
 ## About The App
 You can explore Star Wars movies, characaters and add some favorites.
@@ -28,4 +25,4 @@ I used `React Native`, `Expo`, `React Navigation`, `Apollo client`, `GraphQL`, `
 
 ## Credits
 List of contriubutors:
-- [Paul Villedieu](paul.villedieu@umontreal.ca)
+- [Paul Villedieu](paul.villedieu@epita.fr)
