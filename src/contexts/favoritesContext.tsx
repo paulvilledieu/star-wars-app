@@ -1,6 +1,6 @@
-import React, { createContext, ReactNode, useState } from 'react'
+import React, { createContext, ReactNode, useState } from 'react';
 
-import { ICharacter } from '../types'
+import { ICharacter } from '../types';
 
 
 type IFavoritesContext = {
@@ -8,7 +8,7 @@ type IFavoritesContext = {
     isFavorite: (character: ICharacter) => boolean,
     toggleFavorite: (character: ICharacter) => void,
 };
-type ProviderProps = { children: ReactNode }
+type ProviderProps = { children: ReactNode };
 
 export const FavoritesContext = createContext<IFavoritesContext>({
     favorites: [],

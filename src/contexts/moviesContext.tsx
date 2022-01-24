@@ -1,6 +1,6 @@
-import React, { createContext, ReactNode, useEffect, useState } from 'react'
+import React, { createContext, ReactNode, useEffect, useState } from 'react';
 
-import { IMovie } from '../types'
+import { IMovie } from '../types';
 
 
 type IMoviesContext = {

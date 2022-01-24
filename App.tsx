@@ -14,12 +14,13 @@ import FavoriteIcon from './src/components/FavoriteIcon/FavoriteIcon';
 import { MoviesProvider } from './src/contexts/moviesContext';
 import { FavoritesProvider } from './src/contexts/favoritesContext';
 
+
 const Stack = createNativeStackNavigator<StackParamList>();
 
 const client = new ApolloClient({
     uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index',
-    cache: new InMemoryCache()
-  });
+    cache: new InMemoryCache(),
+});
 
 export default function App() {
     return (
@@ -47,5 +48,5 @@ export default function App() {
                 </FavoritesProvider>
             </MoviesProvider>
         </ApolloProvider>
-  );
-}
+    );
+};

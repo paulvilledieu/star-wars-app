@@ -14,4 +14,4 @@ export default StyleSheet.create({
         marginBottom: wp('2.5%'),
         fontStyle: 'italic',
     }
-})
+});
