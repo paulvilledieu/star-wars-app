@@ -3,7 +3,6 @@ import { ActivityIndicator, FlatList, Switch, Text, View } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 import { StackParamList } from '../../../types';
-
 import MovieItem from '../../../components/MovieItem/MovieItem';
 import { MoviesContext } from '../../../contexts/moviesContext';
 import { sortStringDate } from '../../../utils';

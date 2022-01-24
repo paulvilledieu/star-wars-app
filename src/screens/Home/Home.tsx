@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import { MaterialIcons } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { useQuery} from "@apollo/client";
+import { useQuery} from '@apollo/client';
 
 import Movies from './Movies/Movies';
 import Favorites from './Favorites/Favorites';
