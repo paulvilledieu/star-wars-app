@@ -19,8 +19,8 @@ export const Character = ({ route, navigation }: Props) => {
         <View>
             <Text style={styles.headerText}>{`Name: ${character.name}`}</Text>
             <Text style={styles.headerText}>{`Birth year: ${character.birthYear || '?'}`}</Text>
-            <Text style={styles.headerText}>{`Height: ${character.height || '?'}`}</Text>
-            <Text style={styles.headerText}>{`Mass: ${character.mass || '?'}`}</Text>
+            <Text style={styles.headerText}>{`Height: ${character.height || '?'} cm`}</Text>
+            <Text style={styles.headerText}>{`Mass: ${character.mass || '?'} kg`}</Text>
             <Text style={styles.headerText}>{`Home world: ${character.homeworld.name || '?'}`}</Text>
             <Text style={styles.headerText}>Appeared in:</Text>
         </View>
